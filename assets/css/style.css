@@ -36,6 +36,7 @@ nav ul {
 }
 
 nav ul a {
+    display: inline-block;
     font-weight: 600;
     text-transform: uppercase;
     color: rgb(123, 218, 255);
