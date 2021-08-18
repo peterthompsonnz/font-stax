@@ -1,0 +1,19 @@
+{
+    "name": "my-site",
+    "version": "1.0.0",
+    "description": "My first site built using the Sergey SSG",
+    "main": "index.js",
+    "scripts": {
+        "start": "sergey",
+        "dev": "sergey --watch"
+    },
+    "keywords": [
+        "Sergey",
+        "SSG"
+    ],
+    "author": "Peter Thompson",
+    "license": "ISC",
+    "dependencies": {
+        "sergey": "^0.0.1"
+    }
+}

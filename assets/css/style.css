@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif-Regular.ttf') format('truetype')
+}
+
+body {
+    font-family: DroidSerif, serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    color: #111;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 0 1em;
+}
+
+h1 {
+    font-size: 4.75rem;
+    margin: 0.333em 0;
+    line-height: 1.2;
+}
+
+nav {
+    padding: 0.2em 0;
+    background-color: #0f0f0f;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(123, 218, 255);
+    text-decoration: none;
+    margin-right: 1.5em;
+}
+
+nav ul a:hover {
+    color: rgb(13, 119, 219);
+    ;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5em 0;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 0.3);
+    border-radius: 6px;
+}
+
+.font-info {
+    font-style: italic;
+    font-size: 1.25em;
+    padding-left: 0.5em;
+    margin-left: 0.25em;
+    border-left: 6px solid #111;
+}
