@@ -7,7 +7,7 @@ const fontStacks = {
     'garamond': '"Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif'
 }
 
-const body = document.body
+const main = document.querySelector('main')
 const links = document.querySelectorAll('nav a')
 
 links.forEach(link => addEventListener('click', handleNavigation))
@@ -25,5 +25,5 @@ function handleNavigation(evt) {
     })
 
     const fontName = currentLink.dataset.font
-    body.style.fontFamily = fontStacks[fontName]
+    main.style.fontFamily = fontStacks[fontName]
 }
