@@ -1,5 +1,5 @@
 const fontStacks = {
-    'Droid Serif': 'DroidSerif, serif',
+    'Droid Serif Web Font': 'DroidSerif, serif',
     'Times New Roman Stack': 'Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif',
     'Verdana Stack': 'Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif',
     'Georgia Stack': 'Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif',
