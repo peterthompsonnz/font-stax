@@ -5,7 +5,8 @@
 
 @font-face {
     font-family: 'DroidSerif';
-    src: url('../fonts/DroidSerif-Regular.ttf') format('truetype')
+    src: url('../fonts/DroidSerif-Regular.ttf') format('truetype');
+    font-display: swap;
 }
 
 .link-colour {
