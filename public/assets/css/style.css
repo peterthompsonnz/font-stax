@@ -1,6 +1,19 @@
+:root {
+    --standard-link-colour: rgb(123, 218, 255);
+    --current-link-colour: rgb(255, 37, 146);
+}
+
 @font-face {
     font-family: 'DroidSerif';
     src: url('../fonts/DroidSerif-Regular.ttf') format('truetype')
+}
+
+.link-colour {
+    color: var(--standard-link-colour);
+}
+
+.current-link {
+    color: var(--current-link-colour);
 }
 
 body {
@@ -25,7 +38,11 @@ h1 {
 }
 
 nav {
-    padding: 0.2em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.1em 0;
+    min-height: 5.5em;
     background-color: #0f0f0f;
 }
 
@@ -39,16 +56,16 @@ nav ul a {
     display: inline-block;
     font-weight: 600;
     text-transform: uppercase;
-    color: rgb(123, 218, 255);
     text-decoration: none;
     margin-right: 1.5em;
 }
 
-nav ul a:hover {
+
+/* nav ul a:hover {
     color: rgb(13, 119, 219);
     ;
     text-decoration: none;
-}
+} */
 
 img {
     max-width: 100%;
@@ -57,12 +74,4 @@ img {
     margin: 0.5em 0;
     box-shadow: 0 4px 6px rgb(0 0 0 / 0.3);
     border-radius: 6px;
-}
-
-.font-info {
-    font-style: italic;
-    font-size: 1.25em;
-    padding-left: 0.5em;
-    margin-left: 0.25em;
-    border-left: 6px solid #111;
 }
